@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fen Bilimleri Ezber Listesi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Readex+Pro:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one memorisation sheet. Every line is a pair: Turkish left, Arabic right, nothing else. */
+:root{
+  --bg:#f3f5f9; --card:#ffffff; --ink:#151b2e; --ink-2:#4a5570; --line:#dce2ec; --zebra:#f7f9fc;
+  --c1:#3756d8; --c2:#df5a12; --c3:#7344e0; --c4:#0b8194; --c5:#cf2f6a; --c6:#2b8f3f;
+  --f-tr:"Lexend","Segoe UI",system-ui,sans-serif; --f-ar:"Readex Pro","Segoe UI",Tahoma,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0c111d; --card:#141b2a; --ink:#e7ebf4; --ink-2:#aab4c8; --line:#283247; --zebra:#182132;
+  --c1:#7f98ff; --c2:#ff9a5c; --c3:#b393ff; --c4:#45c6d9; --c5:#ff7aa8; --c6:#6bd47f; color-scheme:dark}}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-tr);font-size:15.5px;line-height:1.55}
+.wrap{max-width:980px;margin-inline:auto;padding-block:22px 48px;padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px))}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 16px;margin-bottom:6px}
+h1{margin:0;font-size:1.3rem}
+header .ar{font-family:var(--f-ar);font-size:1.15rem;font-weight:700;direction:rtl}
+.back{font-size:.85rem;margin:0 0 14px}
+.back a{color:var(--c1)}
+section{background:var(--card);border:1px solid var(--line);border-top:5px solid var(--sc);border-radius:12px;overflow:hidden;margin-top:14px;break-inside:avoid-page}
+h2{margin:0;padding:8px 14px;display:flex;justify-content:space-between;align-items:baseline;gap:4px 16px;font-size:1.02rem;border-bottom:1px solid var(--line)}
+h2 .tr{color:var(--sc)}
+h2 .ar{font-family:var(--f-ar);direction:rtl;margin-left:auto}
+ol{list-style:none;margin:0;padding:0}
+li{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-bottom:1px solid var(--line)}
+li:last-child{border-bottom:0}
+li:nth-child(even){background:var(--zebra)}
+li>.tr{padding:7px 12px;border-right:1px solid var(--line);font-weight:500}
+li>.ar{padding:6px 12px;font-family:var(--f-ar);direction:rtl;text-align:right;line-height:1.8}
+.m{direction:ltr;unicode-bidi:isolate;font-family:var(--f-tr);font-weight:600;white-space:nowrap}
+.t{direction:ltr;unicode-bidi:isolate;font-family:var(--f-tr);font-weight:600}
+[lang]{unicode-bidi:isolate}
+@media (max-width:560px){body{font-size:13.5px}li>.tr,li>.ar{padding:6px 8px}}
+@media print{body{background:#fff;color:#000;font-size:10.5pt}.back{display:none}section{border-color:#bbb}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header><h1>Fen Bilimleri 1. Yazılı · Ezber</h1><span class="ar" lang="ar">ما يجب حفظه</span></header>
+  <p class="back"><a href="../">← Konu anlatımlı sayfa · صفحة الشرح</a></p>
+
+  <section style="--sc:var(--c1)">
+    <h2><span class="tr" lang="tr" dir="ltr">1 · Uzay araçları (2 soru)</span><span class="ar" lang="ar" dir="rtl">مركبات الفضاء (سؤالان)</span></h2>
+    <ol>
+      <li><div class="tr keep" lang="tr" dir="ltr">Uzay: Dünya’nın atmosferi dışında, gök cisimlerinin bulunduğu, tamamen boş olmayan geniş ortam.</div><div class="ar" lang="ar" dir="rtl">الفضاء: مكان واسع خارج الغلاف الجوي، فيه الأجرام، وليس فارغاً تماماً.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Uzay roketi: diğer araçları uzaya taşır; Dünya’dan kontrol edilir; güneş paneli yoktur.</div><div class="ar" lang="ar" dir="rtl">الصاروخ: ينقل المركبات إلى الفضاء؛ يُتحكَّم به من الأرض؛ بلا ألواح شمسية.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Yapay uydu: belirli bir yörüngede dolanır; haberleşme, gözlem, keşif için kullanılır; insansızdır.</div><div class="ar" lang="ar" dir="rtl">القمر الصناعي: يدور في مدار محدّد؛ للاتصالات والمراقبة والاستكشاف؛ بلا روّاد.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Uzay sondası: gök cismini incelemek için gönderilen, Dünya’dan kontrol edilen robotik araç.</div><div class="ar" lang="ar" dir="rtl">المسبار: مركبة آلية تُرسَل لدراسة جرم سماوي وتُدار من الأرض.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Uzay mekiği: yeniden kullanılır; astronotları ve malzemeleri uzay istasyonuna taşır; içindeki astronotlar kontrol eder.</div><div class="ar" lang="ar" dir="rtl">المكوك: يُعاد استعماله؛ ينقل الروّاد والمواد إلى المحطة؛ يقوده الروّاد بداخله.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Uzay istasyonu: yörüngede dolanır; astronotlar içinde yaşar ve deney yapar; yeniden kullanılamaz.</div><div class="ar" lang="ar" dir="rtl">محطة الفضاء: تدور في مدار؛ يعيش فيها الروّاد ويُجرون التجارب؛ لا يُعاد استعمالها.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Güneş paneli: yapay uydu, uzay sondası, uzay istasyonunda var; uzay roketinde yok.</div><div class="ar" lang="ar" dir="rtl">الألواح الشمسية: في القمر والمسبار والمحطة؛ وليست في الصاروخ.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Uzay teleskobu, atmosferin dışında olduğu için yer tabanlı teleskoptan daha net görüntü alır.</div><div class="ar" lang="ar" dir="rtl">تلسكوب الفضاء خارج الغلاف الجوي، فصوره أوضح من التلسكوب الأرضي.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Yapay uydu: VAR – YOK – YOK (yörünge – astronot – tekrar kullanım)</div><div class="ar" lang="ar" dir="rtl">القمر الصناعي: مدار نعم – روّاد لا – إعادة استعمال لا</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Uzay istasyonu: VAR – VAR – YOK</div><div class="ar" lang="ar" dir="rtl">محطة الفضاء: مدار نعم – روّاد نعم – إعادة استعمال لا</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Uzay mekiği: VAR – VAR – VAR</div><div class="ar" lang="ar" dir="rtl">المكوك: مدار نعم – روّاد نعم – إعادة استعمال نعم</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Uzay mekiği yeniden kullanılabilirken uzay istasyonu yeniden kullanılamaz.</div><div class="ar" lang="ar" dir="rtl">المكوك يُعاد استعماله، بينما المحطة لا يُعاد استعمالها.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Türkiye: 9 aktif uydu = 6 haberleşme + 3 gözlem.</div><div class="ar" lang="ar" dir="rtl">تركيا: <span class="m">9</span> أقمار عاملة = <span class="m">6</span> اتصالات + <span class="m">3</span> مراقبة.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Haberleşme: Türksat 3A, 4A, 4B, 5A, 5B, 6A · Gözlem: Göktürk 1, Göktürk 2, İmece</div><div class="ar" lang="ar" dir="rtl">اتصالات: <span class="t" lang="tr">Türksat</span> · مراقبة: <span class="t" lang="tr">Göktürk 1, Göktürk 2, İmece</span></div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Türksat 6A: ilk yerli ve millî haberleşme uydusu.</div><div class="ar" lang="ar" dir="rtl"><span class="t" lang="tr">Türksat 6A</span>: أول قمر اتصالات محلي ووطني.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">İlk Türk astronot: Alper Gezeravcı (2024).</div><div class="ar" lang="ar" dir="rtl">أول رائد فضاء تركي: <span class="t" lang="tr">Alper Gezeravcı</span> (<span class="m">2024</span>).</div></li>
+    </ol>
+  </section>
+
+  <section style="--sc:var(--c2)">
+    <h2><span class="tr" lang="tr" dir="ltr">2 · Yıldızların yaşamı (1 soru)</span><span class="ar" lang="ar" dir="rtl">حياة النجوم (سؤال)</span></h2>
+    <ol>
+      <li><div class="tr keep" lang="tr" dir="ltr">Yıldızlar bulutsuda (nebula) doğar.</div><div class="ar" lang="ar" dir="rtl">النجوم تولد في السديم.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Yıldızın yaşamını kütlesi belirler. Kütle büyükse yaşam kısadır.</div><div class="ar" lang="ar" dir="rtl">الكتلة تحدّد حياة النجم. الكتلة الأكبر = حياة أقصر.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Küçük kütleli: Bulutsu → Önyıldız → Yıldız → Kırmızı dev → Gezegenimsi bulutsu → Beyaz cüce</div><div class="ar" lang="ar" dir="rtl">صغير الكتلة: سديم ← نجم أولي ← نجم ← عملاق أحمر ← سديم كوكبي ← قزم أبيض</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Büyük kütleli: Bulutsu → Önyıldız → Yıldız → Kırmızı süperdev → Süpernova → Nötron yıldızı / Kara delik</div><div class="ar" lang="ar" dir="rtl">كبير الكتلة: سديم ← نجم أولي ← نجم ← عملاق أحمر فائق ← مستعر أعظم ← نجم نيوتروني / ثقب أسود</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Süpernova için yıldızın büyük kütleli olması gerekir.</div><div class="ar" lang="ar" dir="rtl">المستعر الأعظم يحتاج نجماً كبير الكتلة.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Güneş küçük kütlelidir: kara delik olmaz, beyaz cüce olur.</div><div class="ar" lang="ar" dir="rtl">الشمس صغيرة الكتلة: لا تصبح ثقباً أسود، بل قزماً أبيض.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Sıcaktan soğuğa: Mavi → Beyaz → Sarı → Turuncu → Kırmızı</div><div class="ar" lang="ar" dir="rtl">من الأحرّ إلى الأبرد: أزرق ← أبيض ← أصفر ← برتقالي ← أحمر</div></li>
+    </ol>
+  </section>
+
+  <section style="--sc:var(--c3)">
+    <h2><span class="tr" lang="tr" dir="ltr">3 · Yıldız, galaksi, evren (1 soru)</span><span class="ar" lang="ar" dir="rtl">النجم والمجرة والكون (سؤال)</span></h2>
+    <ol>
+      <li><div class="tr keep" lang="tr" dir="ltr">Yıldız: ısı ve ışık yayan büyük gaz küresi.</div><div class="ar" lang="ar" dir="rtl">النجم: كرة غاز كبيرة تنشر الحرارة والضوء.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Galaksi (gök ada): yıldız, gezegen, bulutsu ve gök taşından oluşan yapı.</div><div class="ar" lang="ar" dir="rtl">المجرة: بناء من نجوم وكواكب وسدم ونيازك.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Evren: tüm gök cisimlerini içine alan boşluk.</div><div class="ar" lang="ar" dir="rtl">الكون: الفراغ الذي يحتوي كل الأجرام.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Büyükten küçüğe: Evren → Galaksi → Yıldız</div><div class="ar" lang="ar" dir="rtl">من الأكبر إلى الأصغر: الكون ← المجرة ← النجم</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Galaksimiz: Samanyolu (sarmal). En yakın galaksi: Andromeda.</div><div class="ar" lang="ar" dir="rtl">مجرتنا: درب التبانة (حلزونية). أقرب مجرة: أندروميدا.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Işık yılı: uzunluk birimi; ışığın bir yılda aldığı yol.</div><div class="ar" lang="ar" dir="rtl">السنة الضوئية: وحدة طول؛ المسافة التي يقطعها الضوء في سنة.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Takımyıldız: şekil oluşturan yıldız grubu. Kutup Yıldızı kuzeyi gösterir.</div><div class="ar" lang="ar" dir="rtl">الكوكبة: مجموعة نجوم تشكّل شكلاً. النجم القطبي يدلّ على الشمال.</div></li>
+    </ol>
+  </section>
+
+  <section style="--sc:var(--c4)">
+    <h2><span class="tr" lang="tr" dir="ltr">4 · Fiziksel anlamda iş (3 soru)</span><span class="ar" lang="ar" dir="rtl">الشغل الفيزيائي (3 أسئلة)</span></h2>
+    <ol>
+      <li><div class="tr keep" lang="tr" dir="ltr">İş için 2 şart: cisme kuvvet uygulanmalı ve cisim kuvvet doğrultusunda hareket etmeli.</div><div class="ar" lang="ar" dir="rtl">شرطا الشغل: قوة تؤثّر على الجسم، والجسم يتحرك في اتجاه القوة.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Kuvvet ile hareket aynı doğrultuda olmalıdır.</div><div class="ar" lang="ar" dir="rtl">القوة والحركة على الخط نفسه.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Cisim hareket etmezse iş yoktur (duvarı itmek, halteri tutmak).</div><div class="ar" lang="ar" dir="rtl">إذا لم يتحرك الجسم فلا شغل (دفع الحائط، تثبيت الأثقال).</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Kuvvet harekete dikse iş yoktur (poşetle düz yolda yürümek).</div><div class="ar" lang="ar" dir="rtl">إذا كانت القوة متعامدة مع الحركة فلا شغل (المشي بالأكياس على طريق مستوٍ).</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Halteri kaldırmak: iş var. Halteri sabit tutmak: iş yok.</div><div class="ar" lang="ar" dir="rtl">رفع الأثقال: يوجد شغل. تثبيتها: لا شغل.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">İş; kuvvete ve kuvvet doğrultusunda alınan yola bağlıdır, ikisiyle doğru orantılıdır.</div><div class="ar" lang="ar" dir="rtl">الشغل يعتمد على القوة والمسافة في اتجاهها، ويتناسب طردياً معهما.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Newton (N) × metre (m) = joule (J)</div><div class="ar" lang="ar" dir="rtl">نيوتن × متر = جول</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Fiziksel iş, günlük hayattaki iş ile aynı değildir.</div><div class="ar" lang="ar" dir="rtl">الشغل الفيزيائي ليس هو الشغل في الحياة اليومية.</div></li>
+    </ol>
+  </section>
+
+  <section style="--sc:var(--c5)">
+    <h2><span class="tr" lang="tr" dir="ltr">5 · Kinetik ve potansiyel enerji (2 soru)</span><span class="ar" lang="ar" dir="rtl">الطاقة الحركية وطاقة الوضع (سؤالان)</span></h2>
+    <ol>
+      <li><div class="tr keep" lang="tr" dir="ltr">Enerji: iş yapabilme yeteneği. Birimi joule.</div><div class="ar" lang="ar" dir="rtl">الطاقة: القدرة على بذل الشغل. وحدتها الجول.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Kinetik enerji: hareketten; kütle ve hıza bağlı.</div><div class="ar" lang="ar" dir="rtl">الطاقة الحركية: من الحركة؛ تعتمد على الكتلة والسرعة.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Çekim potansiyel enerjisi: yükseklikten; ağırlık (kütle) ve yüksekliğe bağlı.</div><div class="ar" lang="ar" dir="rtl">طاقة الوضع الجاذبية: من الارتفاع؛ تعتمد على الوزن (الكتلة) والارتفاع.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Esneklik potansiyel enerjisi: lastik, yay, sünger; gerilme veya sıkışma miktarına bağlı.</div><div class="ar" lang="ar" dir="rtl">طاقة الوضع المرونية: مطاط، نابض، إسفنج؛ تعتمد على مقدار الشدّ أو الضغط.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Dalda duran elma: çekim potansiyel enerjisi. Düşen elma: kinetik enerji.</div><div class="ar" lang="ar" dir="rtl">تفاحة على الغصن: طاقة وضع جاذبية. تفاحة تسقط: طاقة حركية.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Kinetik enerji hareket (sürat) gerektirir; potansiyel enerji konum (yükseklik) gerektirir.</div><div class="ar" lang="ar" dir="rtl">الحركية تحتاج حركة (سرعة)؛ والوضع تحتاج مكاناً (ارتفاعاً).</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Kütleler eşitse hızlı olanın kinetik enerjisi fazladır.</div><div class="ar" lang="ar" dir="rtl">إذا تساوت الكتل، فالأسرع طاقته الحركية أكبر.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Yükseklik eşitse ağır olanın çekim potansiyel enerjisi fazladır.</div><div class="ar" lang="ar" dir="rtl">إذا تساوى الارتفاع، فالأثقل طاقة وضعه أكبر.</div></li>
+    </ol>
+  </section>
+
+  <section style="--sc:var(--c6)">
+    <h2><span class="tr" lang="tr" dir="ltr">6 · Enerji dönüşümleri</span><span class="ar" lang="ar" dir="rtl">تحوّلات الطاقة</span></h2>
+    <ol>
+      <li><div class="tr keep" lang="tr" dir="ltr">İnerken: potansiyel → kinetik. Çıkarken: kinetik → potansiyel.</div><div class="ar" lang="ar" dir="rtl">النزول: وضع ← حركية. الصعود: حركية ← وضع.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">En üstte potansiyel enerji, en altta kinetik enerji en fazladır.</div><div class="ar" lang="ar" dir="rtl">في الأعلى طاقة الوضع الأكبر، وفي الأسفل الحركية الأكبر.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Enerji yoktan var olmaz, yok olmaz; başka bir türe dönüşür (enerjinin korunumu).</div><div class="ar" lang="ar" dir="rtl">الطاقة لا تُخلق ولا تفنى، بل تتحوّل (حفظ الطاقة).</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Sürtünme: kinetik enerji → ısı ve ses; cisim yavaşlar ve durur.</div><div class="ar" lang="ar" dir="rtl">الاحتكاك: الحركية ← حرارة وصوت؛ فيبطئ الجسم ويتوقف.</div></li>
+      <li><div class="tr keep" lang="tr" dir="ltr">Sıkışan yay bırakılınca: esneklik potansiyel → kinetik.</div><div class="ar" lang="ar" dir="rtl">نابض مضغوط يُترك: وضع مرونية ← حركية.</div></li>
+    </ol>
+  </section>
+</div>
+
+</body>
+</html>

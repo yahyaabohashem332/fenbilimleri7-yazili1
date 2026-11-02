@@ -6,6 +6,8 @@
 
 **Site · الموقع:** https://yahyaabohashem332.github.io/fenbilimleri7-yazili1/
 
+**Ezber listesi · ما يجب حفظه:** https://yahyaabohashem332.github.io/fenbilimleri7-yazili1/ezber/
+
 ## İçerik · المحتوى
 
 | Konu | Sınavda |
